@@ -49,7 +49,7 @@ export default function MainPage({theme, setTheme}: BtnThemeToggleProps) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const projectsData = [...data.projects, ...data.personalProjects];
+  const projectsData = [...data.projects, ...data.personalProjects].filter((item) => item.star);
 
   const portfolioSections: PortfolioSection[] = [
     {
@@ -132,7 +132,7 @@ export default function MainPage({theme, setTheme}: BtnThemeToggleProps) {
       <BtnBackToTop visible={floatingUIComponents} />
       <Footer data={data.footerinfo} />
       <ProjectsIconBar
-        data={projectsData.filter(item => item.star)}
+        data={projectsData}
         selectedIndex={
           activeSection === "projects" ? projectsIndex : personalProjectsIndex
         }
