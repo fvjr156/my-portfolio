@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ImageLoading from "./ImageLoading";
+import {ImageLoading} from "./ImagesComponents";
 import type { ContactProps } from "../types/Types";
 
 export default function Contact({ data, id }: ContactProps) {

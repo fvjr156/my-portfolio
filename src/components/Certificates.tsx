@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Accordion, AccordionHeader, AccordionBody } from "./Accordion";
 import { motion } from "framer-motion";
-import ImageLoading from "./ImageLoading";
+import {ImageLoading} from "./ImagesComponents";
 import type { CertificatesProps, TypeCertificateItem } from "../types/Types";
 
 export default function Certificates({ data, id }: CertificatesProps) {
@@ -14,10 +14,7 @@ export default function Certificates({ data, id }: CertificatesProps) {
         Achievements
       </h1>
 
-      <div
-        // className={`${open > -1 ? "h-180" : "h-130"} relative overflow-visible accordion-transition`}
-        className="flex flex-col space-y-4"
-      >
+      <div className="flex flex-col space-y-4">
         {data.map((x: TypeCertificateItem, index: number) => (
           <Accordion
             key={index}
@@ -29,7 +26,8 @@ export default function Certificates({ data, id }: CertificatesProps) {
               once: true,
             }}
             styles={{
-              bottom: `${index * 50}px`,
+              marginTop: index === 0 ? 0 : -25,
+              paddingBottom: 25,
             }}
           >
             <AccordionHeader onClick={() => handleOpen(index)} styles={{}}>

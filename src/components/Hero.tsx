@@ -1,6 +1,6 @@
 import { motion, type Variants } from "framer-motion";
 import { useState } from "react";
-import ImageLoading from "./ImageLoading";
+import {ImageLoading} from "./ImagesComponents";
 import { ArrowDown, FileText } from "react-feather";
 import ShinyText from "./ShinyText";
 import type { HeroProps } from "../types/Types";

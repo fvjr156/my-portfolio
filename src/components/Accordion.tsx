@@ -23,7 +23,7 @@ export const Accordion = ({
         style={styles}
         className="
         hover:-translate-y-2 transition-transform duration-300 ease-in
-        relative pb-15 rounded-t-2xl z-10
+        relative rounded-t-2xl z-10
         w-full border border-accent/80 backdrop-blur-md overflow-hidden
         "
       >

@@ -4,6 +4,10 @@
         "pointTo": "home"
     },
     {
+        "label": "About",
+        "pointTo": "about"
+    },
+    {
         "label": "Projects",
         "pointTo": "projects"
     },

@@ -159,7 +159,7 @@
                 "location": "Marikina City, NCR",
                 "course": "Bachelor of Science in Computer Science",
                 "from": "2024",
-                "to": "2028"
+                "to": "2026"
             },
             {
                 "school": "STI College Marikina",
@@ -232,12 +232,12 @@
                 ]
             },
             {
-                "name": "Start Writing Prompts like a Pro",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_prompts.webp",
+                "name": "Google Prompting Essentials Specialization",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_promptingessentials.webp",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/coursera.webp",
                 "institution": "Coursera",
-                "date": "4 March 2026",
-                "certlink": "https://coursera.org/share/4563b5875d7956ac8f505aaefe6b6f6f",
+                "date": "5 July 2026",
+                "certlink": "https://coursera.org/share/4ae33f0af70c6a5826830a3e4057bced",
                 "tags": [
                     "LLMs",
                     "Prompt Engineering",
@@ -272,6 +272,104 @@
                     "Algorithms"
                 ],
                 "contain": true
+            }
+        ]
+    },
+    "about": {
+        "aboutMe": {
+            "portrait1": "https://fvjr156.github.io/my-portfolio/galleryimgs/stiexpo25.webp",
+            "portrait2": "https://fvjr156.github.io/my-portfolio/galleryimgs/stiexpo24.webp",
+            "portrait3": "https://fvjr156.github.io/my-portfolio/galleryimgs/wave111.webp",
+            "intro": [
+                "$indent$I am a $year$ year-old Computer Science undergraduate with a strong passion for full-stack web and mobile app development. My primary expertise lies in React, Android (Java), and backend design, allowing me to create seamless and efficient applications."
+            ],
+            "facts": [
+                {
+                    "label": "Residence",
+                    "value": "San Mateo, Rizal"
+                },
+                {
+                    "label": "Focus",
+                    "value": "Full-Stack Web & Mobile"
+                },
+                {
+                    "label": "Interests",
+                    "value": "Coding, ML, Languages, Linux. Music"
+                }
+            ]
+        },
+        "workExperience": [
+            {
+                "role": "Advisor I, Customer Service",
+                "company": "Concentrix Philippines",
+                "location": "On-Site",
+                "from": "2026",
+                "to": "Present",
+                "description": "Providing specialized tier-support for a major US-based telecommunications carrier, managing complex Local Number Portability (LNP) operations, and delivering a high-quality customer experience."
+            },
+            {
+                "role": "Freelance Application Developer",
+                "company": "Independent / Client Work",
+                "location": "Remote",
+                "from": "2025",
+                "to": "2025",
+                "description": "Engineered full-stack web, and mobile applications with AR and ML-based implementations across both client-commissioned and personal projects."
+            },
+            {
+                "role": "Student-Trainee",
+                "company": "National Bureau of Investigation — Marikina Satellite Office",
+                "location": "On-Site",
+                "from": "2024",
+                "to": "2024",
+                "description": "Processed data, verified identities, and released NBI clearances for 500+ applicants (up to 35 applicants per day), ensuring 100% accuracy in data entry. "
+            }
+        ],
+        "skills": [
+            {
+                "category": "Languages",
+                "items": [
+                    "TypeScript",
+                    "JavaScript",
+                    "Java",
+                    "Python",
+                    "SQL"
+                ]
+            },
+            {
+                "category": "Frontend",
+                "items": [
+                    "React",
+                    "Tailwind CSS",
+                    "Framer Motion",
+                    "Material UI"
+                ]
+            },
+            {
+                "category": "Backend",
+                "items": [
+                    "Node.js",
+                    "Express.js",
+                    "MySQL",
+                    "REST APIs"
+                ]
+            },
+            {
+                "category": "Mobile & ML",
+                "items": [
+                    "Android",
+                    "MediaPipe",
+                    "TensorFlow Lite",
+                    "Unity"
+                ]
+            },
+            {
+                "category": "Tools",
+                "items": [
+                    "Git",
+                    "GitHub",
+                    "Figma",
+                    "Chart.js"
+                ]
             }
         ]
     },

@@ -13,6 +13,7 @@ import { Projects, ProjectsIconBar } from "../components/Projects";
 import { useInView } from "framer-motion";
 import { Bounce, ToastContainer, type Theme } from "react-toastify";
 import Education from "../components/Education";
+import About from "../components/About";
 import type { BtnThemeToggleProps, PortfolioSection } from "../types/Types";
 
 export default function MainPage({theme, setTheme}: BtnThemeToggleProps) {
@@ -56,6 +57,10 @@ export default function MainPage({theme, setTheme}: BtnThemeToggleProps) {
       Component: Hero,
       props: { isScrolled: floatingUIComponents, data, theme, id: "home" },
       layoutProps: { herobg: true },
+    },
+    {
+      Component: About,
+      props: { data: data.about, id: "about" },
     },
     {
       Component: Projects,
