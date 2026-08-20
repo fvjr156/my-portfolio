@@ -1,6 +1,6 @@
 {
     "name": "Fernando Jr. Villanueva",
-    "heroavatar": "https://fvjr156.github.io/my-portfolio/avatars/preview_avatar2.webp",
+    "heroavatar": "https://fvjr156.github.io/my-portfolio/a11a24985de/ab568de44d67f0e68ddb640277cdbb94",
     "herodesc": "Mobile App and Web Developer",
     "intro": "  20 year-old Computer Science undergraduate skilled in full-stack web and mobile app development, with primary expertise in React, Android (Java), and backend design.",
     "projects": [
@@ -9,7 +9,7 @@
             "_id": "mlsignlang",
             "title": "ML-Based Sign Language Translator Application",
             "description": "Translate certain American Sign Language (ASL) gestures to English, English speech to text. Made with Android, MediaPipe, and TFLite.",
-            "image": "https://fvjr156.github.io/my-portfolio/demos/isign.webp",
+            "image": "https://fvjr156.github.io/my-portfolio/e6a4de32791/9f3309ae8a1f4f9c0e673a2672e5a9a3",
             "logo": "https://fvjr156.github.io/my-portfolio/logos/isign.webp",
             "github": "https://www.youtube.com/watch?v=q6gc7SaPXLw",
             "projectSlideshow": [],
@@ -32,7 +32,7 @@
             "_id": "augmentedrealitypc",
             "title": "Augmented Reality PC Assembly and Disassembly Application",
             "description": "Computer perts showcase, assembly and disassembly using Augmented Reality (AR). Made with Unity and Vuforia.",
-            "image": "https://fvjr156.github.io/my-portfolio/demos/preview_myar.webp",
+            "image": "https://fvjr156.github.io/my-portfolio/e6a4de32791/91f7eb99ca8dc46bfdeacfe14d7de37d",
             "logo": "https://fvjr156.github.io/my-portfolio/logos/myar.webp",
             "github": "https://www.youtube.com/watch?v=T1iV1YqTDN4",
             "projectSlideshow": [],
@@ -101,7 +101,7 @@
             "_id": "brickbreakergame",
             "title": "Brick Breaker Game",
             "description": "Re-creation of a popular 1970s game using the Java Swing GUI toolkit.",
-            "image": "https://fvjr156.github.io/my-portfolio/demos/preview_brickbreaker.webp",
+            "image": "https://fvjr156.github.io/my-portfolio/e6a4de32791/49e699edc084e13ef562477238c5c42b",
             "logo": "https://fvjr156.github.io/my-portfolio/logos/brickgam.webp",
             "github": "https://github.com/fvjr156/fvjr156-brick-breaker-game",
             "projectSlideshow": [],
@@ -119,7 +119,7 @@
             "title": "Allowance Calculator",
             "logo": "https://fvjr156.github.io/my-portfolio/logos/allowance.webp",
             "description": "An Android application for tracking allowances and expenses, with running balance display and PDF export functionalities.",
-            "image": "https://fvjr156.github.io/my-portfolio/demos/preview_allowancecalc.webp",
+            "image": "https://fvjr156.github.io/my-portfolio/e6a4de32791/2b13c0c138dcd928ad56767d2e3e7905",
             "github": "https://github.com/fvjr156/AllowanceCalculator",
             "projectSlideshow": [],
             "projectDesc": [],
@@ -136,7 +136,7 @@
             "_id": "musicapp",
             "title": "Music Player Application",
             "description": "A web application for playing local music files. Displays music metadata using music-metadata-browser API. No online uploads required.",
-            "image": "https://fvjr156.github.io/my-portfolio/demos/preview_musicplayer.webp",
+            "image": "https://fvjr156.github.io/my-portfolio/e6a4de32791/1e4f1885c906a4cb85f94479c86de046",
             "logo": "https://fvjr156.github.io/my-portfolio/logos/musicpl.webp",
             "attentiongif": "demos/musicplayerdemo.gif",
             "github": "https://fvjr156.github.io/awesomepage/musicplayer/",
@@ -181,7 +181,7 @@
         "certifications": [
             {
                 "name": "Crash Course on Python",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_py1.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/3a7a4b9ffc56553172453951aa93350c",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/coursera.webp",
                 "institution": "Coursera",
                 "date": "4 April 2026",
@@ -194,7 +194,7 @@
             },
             {
                 "name": "Foundations of Agile Project Management",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_agilefundams.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/965def6510056a0696d01090841e4798",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/coursera.webp",
                 "institution": "Coursera",
                 "date": "4 March 2026",
@@ -206,7 +206,7 @@
             },
             {
                 "name": "Java (Basic)",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_javabasic.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/de3009d559cd61235474e3bc01228231",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/hackerrank.webp",
                 "institution": "HackerRank",
                 "date": "24 November 2024",
@@ -219,7 +219,7 @@
             },
             {
                 "name": "React (Basic)",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_reactbasic.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/a1925f375821bca4b96f8734cf078517",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/hackerrank.webp",
                 "institution": "HackerRank",
                 "date": "24 November 2024",
@@ -233,7 +233,7 @@
             },
             {
                 "name": "Google Prompting Essentials Specialization",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_promptingessentials.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/f292a3467fdfa8c1895d136f03cb8fea",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/coursera.webp",
                 "institution": "Coursera",
                 "date": "5 July 2026",
@@ -246,11 +246,11 @@
             },
             {
                 "name": "CodeFest 2025 Local Level - 1st Runner Up",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_codefest.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/8d1995578ba31da7eddb81e238e562b4",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/stimar.webp",
                 "institution": "STI College Marikina",
                 "date": "28 February 2025",
-                "certlink": "https://fvjr156.github.io/my-portfolio/certpreview/codefest.webp",
+                "certlink": "https://fvjr156.github.io/my-portfolio/48a01b6641b/5aa2bb8cb9e31c3dbdf48d517f3de81e",
                 "tags": [
                     "Android",
                     "Java",
@@ -260,11 +260,11 @@
             },
             {
                 "name": "Java Coding League 2024 - Participation",
-                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/certpreview/preview_codingleague.webp",
+                "certpreviewimg": "https://fvjr156.github.io/my-portfolio/48a01b6641b/ddae84ed12b44a46231175bbf4b24e1d",
                 "logo": "https://fvjr156.github.io/my-portfolio/logos/stimar.webp",
                 "institution": "STI College Marikina",
                 "date": "28 November 2024",
-                "certlink": "https://fvjr156.github.io/my-portfolio/certpreview/codingleague.webp",
+                "certlink": "https://fvjr156.github.io/my-portfolio/48a01b6641b/840bf870abd91e2d88fef28c0ef678b8",
                 "tags": [
                     "Java",
                     "Problem Solving",
@@ -277,9 +277,9 @@
     },
     "about": {
         "aboutMe": {
-            "portrait1": "https://fvjr156.github.io/my-portfolio/galleryimgs/stiexpo25.webp",
-            "portrait2": "https://fvjr156.github.io/my-portfolio/galleryimgs/stiexpo24.webp",
-            "portrait3": "https://fvjr156.github.io/my-portfolio/galleryimgs/wave111.webp",
+            "portrait1": "https://fvjr156.github.io/my-portfolio/d17a55aa2cd/f1738bdf626bfef206091f8f23706aac",
+            "portrait2": "https://fvjr156.github.io/my-portfolio/d17a55aa2cd/e062b94c31a0ac26d130f7c4d2afec58",
+            "portrait3": "https://fvjr156.github.io/my-portfolio/d17a55aa2cd/df51a490929bd03bef74415a66ae8cb0",
             "intro": [
                 "$indent$I am a $year$ year-old Computer Science undergraduate with a strong passion for full-stack web and mobile app development. My primary expertise lies in React, Android (Java), and backend design, allowing me to create seamless and efficient applications."
             ],
