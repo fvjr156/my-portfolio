@@ -7,33 +7,42 @@ export interface GalleryImagesProps {
   index?: number;
 }
 
-export const GalleryImage = ({ src, alt, className = "", index = 0 }: GalleryImagesProps) => {
+export const GalleryImage = ({
+  src,
+  alt,
+  className = "",
+  index = 0,
+}: GalleryImagesProps) => {
   const [loaded, setLoaded] = useState(false);
 
   return (
     <div
       className={`
-        relative overflow-hidden rounded-xl border border-border bg-muted
-        aspect-video w-full max-w-xs sm:max-w-sm md:max-w-md
-        transition-all duration-300
-        ${className}
-        ${index !== 0 ? "-mt-8" : ""}
-        hover:scale-101
-      `}
+      relative overflow-hidden rounded-xl border border-border bg-muted
+      aspect-video w-full max-w-xs sm:max-w-sm md:max-w-md
+      transition-all duration-300
+      ${className}
+      ${index !== 0 ? "-mt-8" : ""}
+      hover:scale-101
+    `}
     >
       {!loaded && <ImageLoading />}
-      <img
-        src={src}
-        alt={alt}
-        draggable={false}
-        onLoad={() => setLoaded(true)}
-        onError={() => setLoaded(false)}
-        onMouseDown={(e) => e.preventDefault()}
-        onContextMenu={(e) => e.preventDefault()}
-        className={`w-full h-full object-cover transition-opacity duration-300 
+
+      <picture>
+        <source srcSet={src} media="(min-width: 1px)" type="image/webp" />
+        <img
+          src="https://picsum.photos/800/600"
+          alt={alt}
+          draggable={false}
+          onLoad={() => setLoaded(true)}
+          onError={() => setLoaded(false)}
+          onMouseDown={(e) => e.preventDefault()}
+          onContextMenu={(e) => e.preventDefault()}
+          className={`w-full h-full object-cover transition-opacity duration-300 
           ${loaded ? "opacity-100" : "opacity-0"}
-          `}
-      />
+        `}
+        />
+      </picture>
     </div>
   );
 };
